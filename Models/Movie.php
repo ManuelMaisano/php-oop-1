@@ -12,9 +12,10 @@ class Movie
     public function __construct($title, $price, $category, $cover)
     {
         $this->title = $title;
-        $this->year = $price;
+        $this->price = $price;
         $this->category = $category;
         $this->cover = $cover;
+    }
     
 
     public function getTitle()
